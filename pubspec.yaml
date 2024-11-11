@@ -1,0 +1,31 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Agregar las imágenes usadas en la app
+  assets:
+    - lib/img/fondo.jpg
+    - lib/img/logo.png
+
+  # Si usas una fuente personalizada llamada "rbold", configúrala aquí
+  fonts:
+    - family: rbold
+      fonts:
+        - asset: lib/fonts/rbold.ttf
